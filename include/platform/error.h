@@ -1,0 +1,18 @@
+#ifndef __MY_ERROR_H__
+#define __MY_ERROR_H__
+
+#define ERROR_NO_SUCC 0
+#define ERROR_NO_INVALID_PARAM -1
+
+/*for key*/
+#define ERROR_NO_USER_KEY_NO_ITEM -10
+
+/*for nv*/
+
+/*for unlock cmd*/
+#define ERROR_NO_UNLOCK_CMD_USER_ID_ERROR -30
+#define ERROR_NO_UNLOCK_CMD_USER_MISC_UNMATCHED -31
+#define ERROR_NO_UNLOCK_MANUAL_PWD_UNMATCHED -32
+#define ERROR_NO_UNLOCK_MANUAL_PWD_UNMATCHED_EXT -33
+
+#endif
